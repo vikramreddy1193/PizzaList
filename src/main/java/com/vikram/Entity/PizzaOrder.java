@@ -1,4 +1,4 @@
-package com.vikram;
+package com.vikram.Entity;
 
 import java.util.Date;
 
