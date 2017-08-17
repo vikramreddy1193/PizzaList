@@ -1,4 +1,12 @@
-Instructions to run project:
+Instructions for running existing JAR file:
 
-1. Download "pizzalist.jar" JAR file from target/
-2. run command $java -jar pizzalist.jar <sourcefile> <targetfile>
+1. Download "pizzalist.jar" JAR file from target/ directory in github repository.
+2. Execute JAR file using following command,
+	$java -jar pizzalist.jar <sourcefilepath> <targetfilepath>
+Example: "$java -jar pizzalist.jar sample.txt output.txt"
+
+Instructions to build new JAR file with existing project:
+
+1. Import source code and pom.xml from repository to Maven Environment.
+2. Run command "mvn clean install" - This command deletes existing target/ directory, compiles the source code, runs unit test cases and builds new target/ directory with a JAR file named "pizzalist.jar"
+3. Now execute the JAR file as instructed. 
